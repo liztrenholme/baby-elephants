@@ -1,4 +1,4 @@
-.invite {
+.invite, .rsvp-form {
     text-align: center;
     margin: 10% 30%;
     /* background-color: #fff; */
@@ -41,6 +41,18 @@ a:hover {
     text-decoration: none;
 }
 
+.select {
+    margin-top: 2%;
+    width: 20%;
+}
+
+label {
+    width: 80%;
+}
+
+.write-in {
+    width: 100%;
+}
 
 
 

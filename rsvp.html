@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RSVP</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/elephants.css">
 </head>
+
 <body>
     <div class="container-fluid">
-        
+        <div class="rsvp-form">
+            <form action="https://formspree.io/liztrenholme@gmail.com" method="POST">
+                <center>
+                    <input class="write-in" required type="text" name="fname" placeholder="Your name">
+                    <input class="write-in" required type="email" name="_replyto" placeholder="Your email address">
+                    <input class="select" type="radio" required name="attending" value="yes" />
+                    <label for="attending">Will be attending.</label>
+                    <input class="select" type="radio" required name="attending" value="no" />
+                    <label for="attending">Not able to attend.</label>
+                    <textarea class="write-in" rows="10" cols="40" name="message" placeholder="Questions or comments..." width="50%" height="50%"></textarea>
+                    <input type="submit" class="submit" value="Send">
+                </center>
+            </form>
+        </div>
     </div>
-   <script src="assets/elephants.js"></script>
+    <script src="assets/elephants.js"></script>
 </body>
 
 </html>
