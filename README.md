@@ -1,1 +1,1 @@
-A super simple page for my sister's baby shower.  Guests can RSVP with a formspree form.  An exercise in designing something cute with CSS.
+A super simple page for my sister's baby shower.  Guests can RSVP with a formspree form, and a google map is embedded in a modal showing the exact location of the venue.  An exercise in designing something cute, all with basic CSS.
