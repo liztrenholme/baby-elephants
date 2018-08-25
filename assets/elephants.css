@@ -1,10 +1,53 @@
 .invite {
     text-align: center;
-    margin: 10% 0;
-    
+    margin: 10% 30%;
+    /* background-color: #fff; */
+    opacity: .7;
+    border-top-right-radius: #AEAAAF;
 }
 
-.container-fluid {
+body {
     background-image: url(./images/babyphant.jpg);
     background-repeat: no-repeat;
+    background-position: 0% 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 30%;
 }
+
+span {
+    font-family: 'Satisfy', cursive;
+    font-size: 210%;
+}
+
+p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.btn {
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #AEAAAF;
+}
+
+a {
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    font-size: 110%;
+}
+
+a:hover {
+    color: #717171;
+    text-decoration: none;
+}
+
+
+
+
+
+/* /* Extra small devices (portrait phones, less than 576px)  */
+@media (max-width: 767.98px) {
+    .invite {
+      margin: 10%;
+    }
+  }
