@@ -20,9 +20,13 @@ span {
     font-size: 210%;
 }
 
-p, label {
+p, label, h5 {
     font-family: 'Alegreya Sans SC', sans-serif;
     color: #717171;
+}
+
+.modal {
+    width: 100%;
 }
 
 .btn {
@@ -31,7 +35,7 @@ p, label {
     background-color: #AEAAAF;
 }
 
-a, .submit {
+a, .submit, .modal-btn {
     color: #fff;
     font-family: 'Satisfy', cursive;
     font-size: 110%;
