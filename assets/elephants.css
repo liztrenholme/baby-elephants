@@ -49,5 +49,15 @@ a:hover {
 @media (max-width: 767.98px) {
     .invite {
       margin: 10%;
+      /* background-color: #fff;
+      opacity: .6; */
+    }
+    body {
+        background-image: url(./images/babyphant.jpg);
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 40%;
     }
   }
