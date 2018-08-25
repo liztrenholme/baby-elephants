@@ -1,1 +1,1 @@
-# baby-elephants
+A super simple page for my sister's baby shower.  Guests can RSVP with a formspree form.  An exercise in designing something cute with CSS.
